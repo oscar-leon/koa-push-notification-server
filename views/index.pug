@@ -1,0 +1,8 @@
+head
+    title Custom web push server
+body
+    h1 Skylab push panel
+    form(action="/", method="POST")
+        input(type="text", placeholder="Titulo", name="title")
+        input(type="text", placeholder="Mensaje", name="body")
+        button(type="submit") Enviar notificacion
